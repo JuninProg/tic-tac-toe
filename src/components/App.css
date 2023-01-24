@@ -1,0 +1,41 @@
+.app {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  display: flex;
+  flex-flow: column nowrap;
+  min-width: 516px;
+  min-height: 516px;
+  border: solid 2px black;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1 1 172px;
+}
+
+.board-row * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5rem;
+  flex: 1 1 172px;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.reset {
+  margin-top: 10px;
+}
+
+.reset button {
+  font-size: 1.2rem;
+}
